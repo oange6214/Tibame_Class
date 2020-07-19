@@ -1,0 +1,31 @@
+[
+  {
+    "type": "template",
+    "altText": "this is a buttons template",
+    "template": {
+      "type": "buttons",
+      "actions": [
+        {
+          "type": "postback",
+          "label": "主頁",
+          "text": "切換回主頁",
+          "data": "menu=index"
+        },
+        {
+          "type": "postback",
+          "label": "向上",
+          "text": "切換向上頁面",
+          "data": "menu=menu_up"
+        },
+        {
+          "type": "postback",
+          "label": "向下",
+          "text": "切換向下頁面",
+          "data": "menu=menu_down"
+        }
+      ],
+      "title": "換圖文選單",
+      "text": "按下面按鍵，更換圖文選單"
+    }
+  }
+]

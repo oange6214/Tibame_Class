@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "區塊鏈自定義菜單",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 5,
+        "y": 0,
+        "width": 824,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]傳統交易"
+      }
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 850,
+        "width": 825,
+        "height": 818
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]第三方公證人"
+      }
+    },
+    {
+      "bounds": {
+        "x": 829,
+        "y": 5,
+        "width": 871,
+        "height": 849
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]多位公證人"
+      }
+    },
+    {
+      "bounds": {
+        "x": 825,
+        "y": 854,
+        "width": 875,
+        "height": 814
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]多組織多位公證人"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1700,
+        "y": 0,
+        "width": 800,
+        "height": 858
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]教學訊息"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1700,
+        "y": 858,
+        "width": 800,
+        "height": 810
+      },
+      "action": {
+        "type": "message",
+        "text": "[::text:]more"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "template",
+    "altText": "this is a buttons template",
+    "template": {
+      "type": "buttons",
+      "actions": [
+        {
+          "type": "message",
+          "label": "我有一點點羨慕",
+          "text": "我有一點點羨慕"
+        },
+        {
+          "type": "postback",
+          "label": "喔",
+          "text": "喔",
+          "data": "folder=我有一點點羨慕&tag=eat"
+        }
+      ],
+      "title": "別羨慕哥~",
+      "text": "你在吃便當，我在大溪吃豆干"
+    }
+  }
+]

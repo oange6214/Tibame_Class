@@ -1,0 +1,37 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "index",
+  "chatBarText": "主頁",
+  "areas": [
+    {
+      "bounds": {
+        "x": 126,
+        "y": 379,
+        "width": 1094,
+        "height": 1047
+      },
+      "action": {
+        "type": "postback",
+        "text": "向上",
+        "data": "menu=menu_up"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1405,
+        "y": 379,
+        "width": 959,
+        "height": 1030
+      },
+      "action": {
+        "type": "postback",
+        "text": "向下",
+        "data": "menu=menu_down"
+      }
+    }
+  ]
+}

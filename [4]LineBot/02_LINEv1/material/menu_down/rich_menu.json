@@ -1,0 +1,37 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": false,
+  "name": "down",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 130,
+        "y": 358,
+        "width": 1069,
+        "height": 1010
+      },
+      "action": {
+        "type": "postback",
+        "text": "動作 1",
+        "data": "menu=index"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1342,
+        "y": 345,
+        "width": 1055,
+        "height": 1018
+      },
+      "action": {
+        "type": "postback",
+        "text": "向下",
+        "data": "menu=menu_up"
+      }
+    }
+  ]
+}
